@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import React from 'react';
 
 export const Inicio = () => {
   return (
@@ -28,13 +27,13 @@ export const Inicio = () => {
         Desarrollador frontend enfocado en React
       </p>
 
-      <div className="flex gap-6 md:gap-10 mt-6 md:mt-10 font-montserrat">
+      <div className="flex sm:flex-row md:flex-row gap-6 md:gap-10 mt-6 md:mt-10 font-montserrat">
         <a href="#proyectos">
-          <button className="px-6 py-4 bg-[#667EEA] text-white rounded-4xl cursor-pointer hover:bg-[#667EEA]/80 hover:shadow-lg transition-all duration-300">
+          <button className="px-4 py-2 md:px-6 md:py-4 bg-[#667EEA] text-white rounded-4xl cursor-pointer hover:bg-[#667EEA]/80 hover:shadow-lg transition-all duration-300">
             Ver proyectos
           </button>
         </a>
-        <button className="px-6 py-4 rounded-4xl cursor-pointer border-2 border-[#ccc] hover:border-[#667EEA] hover:text-[#667EEA] transition-all duration-300">
+        <button className="px-4 py-2 md:px-6 md:py-4 rounded-4xl cursor-pointer border-2 border-[#ccc] hover:border-[#667EEA] hover:text-[#667EEA] transition-all duration-300">
           Descargar CV
         </button>
       </div>
