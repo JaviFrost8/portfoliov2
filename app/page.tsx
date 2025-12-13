@@ -1,6 +1,7 @@
 import { Acerca } from './components/Acerca';
 import { Inicio } from './components/Inicio';
 import { Navbar } from './components/Navbar';
+import { Stack } from './components/Stack';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main className="flex flex-col min-h-screen items-center justify-center">
         <Inicio />
         <Acerca />
+        <Stack />
         <section
           id="proyectos"
           className="flex min-h-screen items-center justify-center"
