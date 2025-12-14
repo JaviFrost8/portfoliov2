@@ -1,6 +1,7 @@
 import { Acerca } from './components/Acerca';
 import { Inicio } from './components/Inicio';
 import { Navbar } from './components/Navbar';
+import { Proyectos } from './components/Proyectos';
 import { Stack } from './components/Stack';
 
 export default function Home() {
@@ -11,12 +12,7 @@ export default function Home() {
         <Inicio />
         <Acerca />
         <Stack />
-        <section
-          id="proyectos"
-          className="flex min-h-screen items-center justify-center"
-        >
-          <h2>Proyectos</h2>
-        </section>
+        <Proyectos />
         <section
           id="contacto"
           className="flex min-h-screen items-center justify-center"

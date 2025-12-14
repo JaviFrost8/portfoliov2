@@ -2,12 +2,12 @@ import React from 'react';
 
 export const Stack = () => {
   return (
-    <section>
+    <section className="w-full py-20 bg-[#F6F7F9]">
       <h1 className="flex justify-center text-2xl md:text-3xl font-dm-sans mb-8">
         Herramientas & Stack
       </h1>
-      <div className="flex flex-wrap md:grid md:grid-rows-2 md:grid-flow-col justify-center gap-6 md:mt-15 md:gap-16 px-1.5 md:px-6">
-        <div className="w-12 h-12 mb-6 md:w-22 md:mb-16 text-indigo-500 hover:scale-125 transition-all duration-200">
+      <div className="flex flex-wrap xl:grid xl:grid-rows-2 xl:grid-flow-col justify-center gap-6 md:mt-15 md:gap-16 px-1.5 md:px-6">
+        <div className="w-12 h-12 mb-6 md:w-22 md:mb-16 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -24,7 +24,7 @@ export const Stack = () => {
             HTML5
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -41,7 +41,7 @@ export const Stack = () => {
             CSS3
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -58,7 +58,7 @@ export const Stack = () => {
             Tailwinds
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -75,7 +75,7 @@ export const Stack = () => {
             Javascript
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad5" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -92,7 +92,7 @@ export const Stack = () => {
             Typescript
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad6" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -109,7 +109,7 @@ export const Stack = () => {
             React
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad7" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -126,7 +126,7 @@ export const Stack = () => {
             Next JS
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad8" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -143,7 +143,7 @@ export const Stack = () => {
             Git
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad9" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -164,7 +164,7 @@ export const Stack = () => {
             Github
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad10" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -181,7 +181,7 @@ export const Stack = () => {
             Firebase
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad11" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -198,7 +198,7 @@ export const Stack = () => {
             Vite
           </span>
         </div>
-        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-200">
+        <div className="w-12 h-12 mb-6 md:w-22 text-indigo-500 hover:scale-125 transition-all duration-300">
           <svg viewBox="0 0 128 128">
             <defs>
               <linearGradient id="grad12" x1="0%" y1="0%" x2="100%" y2="0%">
