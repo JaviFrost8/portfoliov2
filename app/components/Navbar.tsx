@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 flex items-center justify-between w-full bg-white h-16 px-6 md:px-20">
+    <nav className="fixed top-0 left-0 flex items-center justify-between w-full bg-white h-16 px-6 md:px-20 z-10">
       <a
         href="#inicio"
         className="font-dm-sans text-2xl font-bold bg-linear-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"
