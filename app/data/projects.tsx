@@ -9,7 +9,7 @@ interface PropsProjects {
   descripcion: string;
   imagen: StaticImageData;
   caracteristicas: string[];
-  demo: string;
+  demo?: string;
   codigo: string;
 }
 
@@ -55,7 +55,6 @@ export const projects: PropsProjects[] = [
       'Optimización',
       'Diseño Responsive',
     ],
-    demo: 'https://portfoliov2vercel.vercel.app/',
     codigo: 'https://github.com/JaviFrost8/portfoliov2',
   },
 ];

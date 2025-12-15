@@ -44,11 +44,21 @@ export const Proyectos = () => {
             </div>
 
             <div className="flex justify-center md:justify-start gap-6 w-full mt-6">
-              <a className="cursor-pointer" href={project.demo} target="_blank">
-                <button className="font-montserrat px-4 py-2 rounded-2xl cursor-pointer border-2 border-[#ccc] hover:border-[#667EEA] hover:text-[#667EEA] transition-all duration-300">
-                  Demo
-                </button>
-              </a>
+              {project.demo ? (
+                <>
+                  <a
+                    className="cursor-pointer"
+                    href={project.demo}
+                    target="_blank"
+                  >
+                    <button className="font-montserrat px-4 py-2 rounded-2xl cursor-pointer border-2 border-[#ccc] hover:border-[#667EEA] hover:text-[#667EEA] transition-all duration-300">
+                      Demo
+                    </button>
+                  </a>
+                </>
+              ) : (
+                ''
+              )}
               <a
                 className="cursor-pointer"
                 href={project.codigo}
