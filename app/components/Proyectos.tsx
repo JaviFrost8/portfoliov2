@@ -24,12 +24,14 @@ export const Proyectos = () => {
               height="600"
               className="rounded-2xl my-6 shadow-2xl max-h-[350px] md:h-[300px] object-cover"
             />
-            <div className="flex flex-col">
+            <div className="flex flex-col justify-center items-center">
               <h2 className="font-montserrat font-bold mb-2 text-xl">
                 {project.nombre}
               </h2>
-              <p className="font-public-sans text-md ">{project.descripcion}</p>
-              <div className="flex flex-wrap gap-2 mt-2">
+              <p className="font-public-sans text-md text-center md:text-start">
+                {project.descripcion}
+              </p>
+              <div className="flex flex-wrap gap-2 mt-2 justify-center md:justify-start">
                 {project.caracteristicas.map((c) => (
                   <div
                     key={c}

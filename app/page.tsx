@@ -1,4 +1,6 @@
 import { Acerca } from './components/Acerca';
+import { Contacto } from './components/Contacto';
+import { Footer } from './components/Footer';
 import { Inicio } from './components/Inicio';
 import { Navbar } from './components/Navbar';
 import { Proyectos } from './components/Proyectos';
@@ -13,13 +15,9 @@ export default function Home() {
         <Acerca />
         <Stack />
         <Proyectos />
-        <section
-          id="contacto"
-          className="flex min-h-screen items-center justify-center"
-        >
-          <h2>Contacto</h2>
-        </section>
+        <Contacto />
       </main>
+      <Footer />
     </>
   );
 }
