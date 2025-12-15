@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const Inicio = () => {
   return (
@@ -33,9 +34,14 @@ export const Inicio = () => {
             Ver proyectos
           </button>
         </a>
-        <button className="px-4 py-2 md:px-6 md:py-4 rounded-4xl cursor-pointer border-2 border-[#ccc] hover:border-[#667EEA] hover:text-[#667EEA] transition-all duration-300">
-          Descargar CV
-        </button>
+        <Link
+          href="/archivos/José Javier Gonzalez - curriculum-dev.pdf"
+          download
+        >
+          <button className="px-4 py-2 md:px-6 md:py-4 rounded-4xl cursor-pointer border-2 border-[#ccc] hover:border-[#667EEA] hover:text-[#667EEA] transition-all duration-300">
+            Descargar CV
+          </button>
+        </Link>
       </div>
     </section>
   );
