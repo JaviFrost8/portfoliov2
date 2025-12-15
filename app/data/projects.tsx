@@ -55,7 +55,7 @@ export const projects: PropsProjects[] = [
       'Optimización',
       'Diseño Responsive',
     ],
-    demo: 'próximamente',
-    codigo: 'próximamente',
+    demo: 'https://portfoliov2vercel.vercel.app/',
+    codigo: 'https://github.com/JaviFrost8/portfoliov2',
   },
 ];
