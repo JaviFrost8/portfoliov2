@@ -1,9 +1,15 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 
 export const Inicio = () => {
   return (
-    <section
+    <motion.section
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8, ease: 'easeOut' }}
       id="inicio"
       className="flex flex-col min-h-screen items-center justify-center w-full bg-[#F6F7F9] px-6 md:px-20"
     >
@@ -43,6 +49,6 @@ export const Inicio = () => {
           </button>
         </Link>
       </div>
-    </section>
+    </motion.section>
   );
 };

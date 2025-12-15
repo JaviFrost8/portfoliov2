@@ -1,8 +1,6 @@
-import React from 'react';
-
 export const Stack = () => {
   return (
-    <section className="w-full py-20 bg-[#F6F7F9]">
+    <section>
       <h1 className="flex justify-center text-2xl md:text-3xl font-dm-sans mb-8">
         Herramientas & Stack
       </h1>
