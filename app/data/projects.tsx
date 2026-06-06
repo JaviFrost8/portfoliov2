@@ -55,7 +55,7 @@ export const projects: PropsProjects[] = [
   },
   {
     id: 4,
-    nombre: 'Rafaello3D',
+    nombre: 'Rafaello 3D',
     descripcion:
       'Sitio web desarrollado para una empresa especializada en impresión 3D y fabricación personalizada. El proyecto está enfocado en mostrar sus servicios, trabajos realizados y facilitar el contacto con potenciales clientes mediante una experiencia moderna y responsive.',
     imagen: rafaello,
